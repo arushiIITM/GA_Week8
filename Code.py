@@ -14,5 +14,5 @@ def main():
     largest = find_largest_number(n1, n2, n3)
     st.success(f'The Largest number is: {largest}')
 
-if _name_ == "_main_":
+if __name__ == "__main__":
   main()
